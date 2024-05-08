@@ -14,6 +14,7 @@ example: entered the website address, then opened it in Google browser
 INSTALATION
 
 Windows
+
 Just save this file on your pc and start python file
 after enter site what you want to discover
 
