@@ -7,3 +7,6 @@ GOOGLE DORKS - write the name of the site and OSINT data will be generated
 used most popular Google sites that help in reconnaissance
 Only the most popular options will be posted here, without water
 example: entered the website address, then opened it in Google browser
+
++ robots.txt для возможной идентификации админ панели
++ robots.txt for possible identification of the admin panel
