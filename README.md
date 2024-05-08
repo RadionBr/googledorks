@@ -10,3 +10,13 @@ example: entered the website address, then opened it in Google browser
 
 + robots.txt для возможной идентификации админ панели
 + robots.txt for possible identification of the admin panel
+
+INSTALATION
+
+Windows
+Just save this file on your pc and start python file
+after enter site what you want to discover
+
+LINUX
+git clone https://github.com/RadionBr/googledorks.git
+
