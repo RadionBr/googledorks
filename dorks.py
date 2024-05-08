@@ -17,7 +17,6 @@ def generate_google_search_link(site, query_type='email'):
     google_link = f'https://www.google.com/search?q={encoded_query}'
     return google_link
 
-
 if __name__ == "__main__":
     site = input("Введите сайт: ")
     google_links = []
@@ -31,3 +30,17 @@ if __name__ == "__main__":
     print("Дорки отображаеммые в Google:")
     for link in google_links:
         print(link)
+
+#вывод robots.txt для возможного нахождения админки
+def add_robots_txt(url):
+    if not url.startswith('http://') and not url.startswith('https://'):
+        url = 'http://' + url  # Можно также улучшить это, чтобы автоматически добавлялся префикс 'https://' в случае возможности
+    if url.endswith('/'):
+        url += 'robots.txt'
+    else:
+        url += '/robots.txt'
+    return url
+
+input_url = input("Введите адрес сайта: ")
+final_url = add_robots_txt(input_url)
+print("Ссылка на robots.txt: <a href='{}'>{}</a>".format(final_url, final_url))
